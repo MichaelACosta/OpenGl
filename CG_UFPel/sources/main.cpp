@@ -220,15 +220,13 @@ int main(void)
     
     // Get a handle for our "LightPosition" uniform
     glUseProgram(programID);
-    GLuint LightID = glGetUniformLocation(programID, "LightPosition_worldspace");
+    GLuint LightID1 = glGetUniformLocation(programID, "LightPosition_worldspace1");
+    GLuint LightID2 = glGetUniformLocation(programID, "LightPosition_worldspace2");
+    GLuint LightID3 = glGetUniformLocation(programID, "LightPosition_worldspace3");
     
     // For speed computation
     double lastTime = glfwGetTime();
     double currentTime = glfwGetTime();
-    int nbFrames    = 0;
-    
-    float ang =0.0;
-    float mov =0.0;
     
     
     do{
@@ -256,8 +254,14 @@ int main(void)
         
         loadShader(MatrixID, ModelMatrixID, ViewMatrixID, TextureID, MVP, ModelMatrix, ViewMatrix, Texture);
         
-        glm::vec3 lightPos = glm::vec3(4, 4, 4);
-        glUniform3f(LightID, lightPos.x, lightPos.y, lightPos.z);
+        glm::vec3 lightPos1 = glm::vec3(-4, 4, 4);
+        glUniform3f(LightID1, lightPos1.x, lightPos1.y, lightPos1.z);
+        
+        glm::vec3 lightPos2 = glm::vec3(0, 4, 4);
+        glUniform3f(LightID2, lightPos2.x, lightPos2.y, lightPos2.z);
+        
+        glm::vec3 lightPos3 = glm::vec3(4, 4, 4);
+        glUniform3f(LightID3, lightPos3.x, lightPos3.y, lightPos3.z);
         
         
         loadBuffer(vertexbuffer, uvbuffer, normalbuffer, elementbuffer);
