@@ -170,7 +170,7 @@ int main(void)
     glBindVertexArray(VertexArrayID);
     
     // Create and compile our GLSL program from the shaders
-    GLuint programID = LoadShaders("../shaders/StandardShading.vertexshader", "../shaders/StandardShading.fragmentshader");
+    GLuint programID = LoadShaders("../shaders/Gouraud.vertexshader", "../shaders/Gouraud.fragmentshader");
     
     // Get a handle for our "MVP" uniform
     GLuint MatrixID      = glGetUniformLocation(programID, "MVP");
@@ -221,15 +221,6 @@ int main(void)
     // Get a handle for our "LightPosition" uniform
     glUseProgram(programID);
     GLuint LightID = glGetUniformLocation(programID, "LightPosition_worldspace");
-    
-    // For speed computation
-    double lastTime = glfwGetTime();
-    double currentTime = glfwGetTime();
-    int nbFrames    = 0;
-    
-    float ang =0.0;
-    float mov =0.0;
-    
     
     do{
         check_gl_error();
