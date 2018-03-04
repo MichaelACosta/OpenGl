@@ -18,12 +18,12 @@ uniform mat4 MV;
 uniform vec3 LightPosition_worldspace1;
 uniform vec3 LightPosition_worldspace2;
 uniform vec3 LightPosition_worldspace3;
+uniform vec3 LightColor1;
 
 void main(){
 
 	// Light emission properties
 	// You probably want to put them as uniforms
-	vec3 LightColor = vec3(1,1,1);
 	float LightPower = 50.0f;
 	
 	// Material properties
@@ -69,20 +69,20 @@ void main(){
 		// Ambient : simulates indirect lighting
 		(MaterialAmbientColor +
 		// Diffuse : "color" of the object
-		MaterialDiffuseColor * LightColor * LightPower * cosTheta1 / (distance1*distance1) +
+		MaterialDiffuseColor * LightColor1 * LightPower * cosTheta1 / (distance1*distance1) +
 		// Specular : reflective highlight, like a mirror
-		MaterialSpecularColor * LightColor * LightPower * pow(cosAlpha1,5) / (distance1*distance1)) +
+		MaterialSpecularColor * LightColor1 * LightPower * pow(cosAlpha1,5) / (distance1*distance1)) +
 		// Ambient : simulates indirect lighting
 		(MaterialAmbientColor +
 		// Diffuse : "color" of the object
-		MaterialDiffuseColor * LightColor * LightPower * cosTheta2 / (distance2*distance2) +
+		MaterialDiffuseColor * LightColor1 * LightPower * cosTheta2 / (distance2*distance2) +
 		// Specular : reflective highlight, like a mirror
-		MaterialSpecularColor * LightColor * LightPower * pow(cosAlpha2,5) / (distance2*distance2)) +
+		MaterialSpecularColor * LightColor1 * LightPower * pow(cosAlpha2,5) / (distance2*distance2)) +
 		// Ambient : simulates indirect lighting
 		(MaterialAmbientColor +
 		// Diffuse : "color" of the object
-		MaterialDiffuseColor * LightColor * LightPower * cosTheta3 / (distance3*distance3) +
+		MaterialDiffuseColor * LightColor1 * LightPower * cosTheta3 / (distance3*distance3) +
 		// Specular : reflective highlight, like a mirror
-		MaterialSpecularColor * LightColor * LightPower * pow(cosAlpha3,5) / (distance3*distance3));
+		MaterialSpecularColor * LightColor1 * LightPower * pow(cosAlpha3,5) / (distance3*distance3));
 
 }

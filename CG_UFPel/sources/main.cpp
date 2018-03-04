@@ -224,6 +224,10 @@ int main(void)
     GLuint LightID2 = glGetUniformLocation(programID, "LightPosition_worldspace2");
     GLuint LightID3 = glGetUniformLocation(programID, "LightPosition_worldspace3");
     
+    GLuint LightColorID1 = glGetUniformLocation(programID, "LightColor1");
+    GLuint LightColorID2 = glGetUniformLocation(programID, "LightColor2");
+    GLuint LightColorID3 = glGetUniformLocation(programID, "LightColor3");
+    
     // For speed computation
     double lastTime = glfwGetTime();
     double currentTime = glfwGetTime();
@@ -263,12 +267,20 @@ int main(void)
         glm::vec3 lightPos3 = glm::vec3(4, 4, 4);
         glUniform3f(LightID3, lightPos3.x, lightPos3.y, lightPos3.z);
         
+        glm::vec3 lightColor1 = glm::vec3(1, 1, 1);
+        glUniform3f(LightColorID1, lightColor1.x, lightColor1.y, lightColor1.z);
+        
+        glm::vec3 lightColor2 = glm::vec3(1, 1, 1);
+        glUniform3f(LightColorID2, lightColor2.x, lightColor2.y, lightColor2.z);
+        
+        glm::vec3 lightColor3 = glm::vec3(1, 1, 1);
+        glUniform3f(LightColorID3, lightColor3.x, lightColor3.y, lightColor3.z);
+        
         
         loadBuffer(vertexbuffer, uvbuffer, normalbuffer, elementbuffer);
         
         // Draw the triangles !
         Draw(indices);
-        
         
         glDisableVertexAttribArray(0);
         glDisableVertexAttribArray(1);
