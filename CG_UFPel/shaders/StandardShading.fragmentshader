@@ -19,6 +19,8 @@ uniform vec3 LightPosition_worldspace1;
 uniform vec3 LightPosition_worldspace2;
 uniform vec3 LightPosition_worldspace3;
 uniform vec3 LightColor1;
+uniform vec3 LightColor2;
+uniform vec3 LightColor3;
 
 void main(){
 
@@ -75,14 +77,14 @@ void main(){
 		// Ambient : simulates indirect lighting
 		(MaterialAmbientColor +
 		// Diffuse : "color" of the object
-		MaterialDiffuseColor * LightColor1 * LightPower * cosTheta2 / (distance2*distance2) +
+		MaterialDiffuseColor * LightColor2 * LightPower * cosTheta2 / (distance2*distance2) +
 		// Specular : reflective highlight, like a mirror
-		MaterialSpecularColor * LightColor1 * LightPower * pow(cosAlpha2,5) / (distance2*distance2)) +
+		MaterialSpecularColor * LightColor2 * LightPower * pow(cosAlpha2,5) / (distance2*distance2)) +
 		// Ambient : simulates indirect lighting
 		(MaterialAmbientColor +
 		// Diffuse : "color" of the object
-		MaterialDiffuseColor * LightColor1 * LightPower * cosTheta3 / (distance3*distance3) +
+		MaterialDiffuseColor * LightColor3 * LightPower * cosTheta3 / (distance3*distance3) +
 		// Specular : reflective highlight, like a mirror
-		MaterialSpecularColor * LightColor1 * LightPower * pow(cosAlpha3,5) / (distance3*distance3));
+		MaterialSpecularColor * LightColor3 * LightPower * pow(cosAlpha3,5) / (distance3*distance3));
 
 }
