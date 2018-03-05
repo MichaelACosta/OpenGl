@@ -27,72 +27,6 @@ using namespace glm;
 #include <vboindexer.hpp>
 #include <glerror.hpp>
 
-void loadShader(GLuint MatrixID, GLuint ModelMatrixID, GLuint ViewMatrixID, GLuint TextureID, glm::mat4 MVP, glm::mat4 ModelMatrix, glm::mat4 ViewMatrix, GLuint Texture){
-    // Send our transformation to the currently bound shader,
-    // in the "MVP" uniform
-    glUniformMatrix4fv(MatrixID, 1, GL_FALSE, &MVP[0][0]);
-    glUniformMatrix4fv(ModelMatrixID, 1, GL_FALSE, &ModelMatrix[0][0]);
-    glUniformMatrix4fv(ViewMatrixID, 1, GL_FALSE, &ViewMatrix[0][0]);
-    
-    // Bind our texture in Texture Unit 0
-    glActiveTexture(GL_TEXTURE0);
-    glBindTexture(GL_TEXTURE_2D, Texture);
-    // Set our "myTextureSampler" sampler to user Texture Unit 0
-    glUniform1i(TextureID, 0);
-}
-
-void Draw(std::vector<unsigned short> indices){
-    // Draw the triangles !
-    glDrawElements(
-                   GL_TRIANGLES,        // mode
-                   indices.size(),      // count
-                   GL_UNSIGNED_SHORT,   // type
-                   (void*)0             // element array buffer offset
-                   );
-}
-
-void loadBuffer(GLuint vertexbuffer, GLuint uvbuffer, GLuint normalbuffer, GLuint elementbuffer){
-    // 1rst attribute buffer : vertices
-    glEnableVertexAttribArray(0);
-    glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
-    glVertexAttribPointer(
-                          0,                  // attribute
-                          3,                  // size
-                          GL_FLOAT,           // type
-                          GL_FALSE,           // normalized?
-                          0,                  // stride
-                          (void*)0            // array buffer offset
-                          );
-    
-    // 2nd attribute buffer : UVs
-    glEnableVertexAttribArray(1);
-    glBindBuffer(GL_ARRAY_BUFFER, uvbuffer);
-    glVertexAttribPointer(
-                          1,                                // attribute
-                          2,                                // size
-                          GL_FLOAT,                         // type
-                          GL_FALSE,                         // normalized?
-                          0,                                // stride
-                          (void*)0                          // array buffer offset
-                          );
-    
-    // 3rd attribute buffer : normals
-    glEnableVertexAttribArray(2);
-    glBindBuffer(GL_ARRAY_BUFFER, normalbuffer);
-    glVertexAttribPointer(
-                          2,                                // attribute
-                          3,                                // size
-                          GL_FLOAT,                         // type
-                          GL_FALSE,                         // normalized?
-                          0,                                // stride
-                          (void*)0                          // array buffer offset
-                          );
-    // Index buffer
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, elementbuffer);
-    
-}
-
-
 void WindowSizeCallBack(GLFWwindow *pWindow, int nWidth, int nHeight) {
     
     g_nWidth = nWidth;
@@ -115,8 +49,8 @@ int main(void)
     glfwWindowHint(GLFW_SAMPLES, 4);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); // To make MacOS happy; should not be needed
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
     
     // Open a window and create its OpenGL context
     g_pWindow = glfwCreateWindow(g_nWidth, g_nHeight, "CG UFPel", NULL, NULL);
@@ -148,7 +82,6 @@ int main(void)
     glfwSetKeyCallback(g_pWindow, (GLFWkeyfun)TwEventKeyGLFW);                         // - Directly redirect GLFW key events to AntTweakBar
     glfwSetCharCallback(g_pWindow, (GLFWcharfun)TwEventCharGLFW);                      // - Directly redirect GLFW char events to AntTweakBar
     glfwSetWindowSizeCallback(g_pWindow, WindowSizeCallBack);
-    
     
     // Ensure we can capture the escape key being pressed below
     glfwSetInputMode(g_pWindow, GLFW_STICKY_KEYS, GL_TRUE);
@@ -224,12 +157,7 @@ int main(void)
     
     // For speed computation
     double lastTime = glfwGetTime();
-    double currentTime = glfwGetTime();
     int nbFrames    = 0;
-    
-    float ang =0.0;
-    float mov =0.0;
-    
     
     do{
         check_gl_error();
@@ -240,6 +168,15 @@ int main(void)
         else
             nUseMouse = 1;
         
+        // Measure speed
+        double currentTime = glfwGetTime();
+        nbFrames++;
+        if (currentTime - lastTime >= 1.0){ // If last prinf() was more than 1sec ago
+            // printf and reset
+            printf("%f ms/frame\n", 1000.0 / double(nbFrames));
+            nbFrames  = 0;
+            lastTime += 1.0;
+        }
         
         // Clear the screen
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -254,17 +191,67 @@ int main(void)
         glm::mat4 ModelMatrix      = glm::mat4(1.0);
         glm::mat4 MVP              = ProjectionMatrix * ViewMatrix * ModelMatrix;
         
-        loadShader(MatrixID, ModelMatrixID, ViewMatrixID, TextureID, MVP, ModelMatrix, ViewMatrix, Texture);
+        // Send our transformation to the currently bound shader,
+        // in the "MVP" uniform
+        glUniformMatrix4fv(MatrixID, 1, GL_FALSE, &MVP[0][0]);
+        glUniformMatrix4fv(ModelMatrixID, 1, GL_FALSE, &ModelMatrix[0][0]);
+        glUniformMatrix4fv(ViewMatrixID, 1, GL_FALSE, &ViewMatrix[0][0]);
         
         glm::vec3 lightPos = glm::vec3(4, 4, 4);
         glUniform3f(LightID, lightPos.x, lightPos.y, lightPos.z);
         
+        // Bind our texture in Texture Unit 0
+        glActiveTexture(GL_TEXTURE0);
+        glBindTexture(GL_TEXTURE_2D, Texture);
+        // Set our "myTextureSampler" sampler to user Texture Unit 0
+        glUniform1i(TextureID, 0);
         
-        loadBuffer(vertexbuffer, uvbuffer, normalbuffer, elementbuffer);
+        // 1rst attribute buffer : vertices
+        glEnableVertexAttribArray(0);
+        glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
+        glVertexAttribPointer(
+                              0,                  // attribute
+                              3,                  // size
+                              GL_FLOAT,           // type
+                              GL_FALSE,           // normalized?
+                              0,                  // stride
+                              (void*)0            // array buffer offset
+                              );
+        
+        // 2nd attribute buffer : UVs
+        glEnableVertexAttribArray(1);
+        glBindBuffer(GL_ARRAY_BUFFER, uvbuffer);
+        glVertexAttribPointer(
+                              1,                                // attribute
+                              2,                                // size
+                              GL_FLOAT,                         // type
+                              GL_FALSE,                         // normalized?
+                              0,                                // stride
+                              (void*)0                          // array buffer offset
+                              );
+        
+        // 3rd attribute buffer : normals
+        glEnableVertexAttribArray(2);
+        glBindBuffer(GL_ARRAY_BUFFER, normalbuffer);
+        glVertexAttribPointer(
+                              2,                                // attribute
+                              3,                                // size
+                              GL_FLOAT,                         // type
+                              GL_FALSE,                         // normalized?
+                              0,                                // stride
+                              (void*)0                          // array buffer offset
+                              );
+        
+        // Index buffer
+        glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, elementbuffer);
         
         // Draw the triangles !
-        Draw(indices);
-        
+        glDrawElements(
+                       GL_TRIANGLES,        // mode
+                       indices.size(),      // count
+                       GL_UNSIGNED_SHORT,   // type
+                       (void*)0             // element array buffer offset
+                       );
         
         glDisableVertexAttribArray(0);
         glDisableVertexAttribArray(1);
@@ -296,3 +283,4 @@ int main(void)
     
     return 0;
 }
+
