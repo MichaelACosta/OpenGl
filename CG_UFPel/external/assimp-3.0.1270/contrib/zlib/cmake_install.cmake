@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/assimp-3.0.1270/contrib/zlib
+# Install script for directory: /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/assimp-3.0.1270/contrib/zlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
