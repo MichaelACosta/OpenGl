@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external
+# Install script for directory: /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,9 +29,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/cmake_install.cmake")
-  include("/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/assimp-3.0.1270/contrib/zlib/cmake_install.cmake")
-  include("/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/assimp-3.0.1270/code/cmake_install.cmake")
+  include("/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/cmake_install.cmake")
+  include("/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/assimp-3.0.1270/contrib/zlib/cmake_install.cmake")
+  include("/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/assimp-3.0.1270/code/cmake_install.cmake")
 
 endif()
 

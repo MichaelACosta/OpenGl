@@ -9,34 +9,34 @@
 /* Begin PBXAggregateTarget section */
 		15EBCF9F80294647AE7A25C6 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = F0F08DFD9BBC4E9C85D61095 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 84A8F0EB6D4F494F90C7C972 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				24786DA4CC764E67A3D22AA6 /* CMake Rules */,
+				1B8F64BE3ADC426484DF7203 /* CMake Rules */,
 			);
 			dependencies = (
-				337A19CF91D04BD5856BFBAE /* PBXTargetDependency */,
-				C759E531510E47909A356690 /* PBXTargetDependency */,
+				F9D80D3129BD4CFFADE89183 /* PBXTargetDependency */,
+				37E15833487C4DDBA8F7AC4B /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		542ACF96DBE9473EB6377D48 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 91C8B72BD52A419181F8D92D /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 1C5657608CB34FF6B4E43118 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
-				E49E9DF800A64C4CA3854CA2 /* CMake PostBuild Rules */,
+				E8E47779F36A4A759D7A9D6D /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				97A57F670562422CA53211BF /* PBXTargetDependency */,
+				E64F29C9AEE4482C982B6382 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		CDF023A047324E2B8F092550 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = CA226A5F68AC4047BB50F4BC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 112FB6AE0FF040D2BFC0AC3A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				0F6FFAD48E234571A5234BFB /* CMake Rules */,
+				C3CBB6B8616E48BBBF5C8D9E /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -46,239 +46,239 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		2016C470E3714E08A77AF751 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 88EA5C6FF1FC45AF8DD78CC9 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_window.m */; settings = {COMPILER_FLAGS = ""; }; };
-		42DCBC26AA2B4045AB188299 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/config.h */ = {isa = PBXBuildFile; fileRef = E2ECF39FEC014232A89AAC22 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/config.h */; settings = {COMPILER_FLAGS = ""; }; };
-		4A9D442EDFD946B290F5D9FD /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/clipboard.c */ = {isa = PBXBuildFile; fileRef = 4D83DA4A8455419CAF478D9A /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/clipboard.c */; settings = {COMPILER_FLAGS = ""; }; };
-		4B91B2849D0342EE9F9AEB89 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_gamma.c */ = {isa = PBXBuildFile; fileRef = 6870B7FA940544899BA5885A /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_gamma.c */; settings = {COMPILER_FLAGS = ""; }; };
-		4F134DE5CAFE479CB91E34C4 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/monitor.c */ = {isa = PBXBuildFile; fileRef = EC863B17FDD948EA922E482D /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/monitor.c */; settings = {COMPILER_FLAGS = ""; }; };
-		58AF6D9415F04CC69049BDF3 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = D91B8FA7AABB4BA5AF4A9F4C /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_platform.h */; settings = {COMPILER_FLAGS = ""; }; };
-		641666C467F949889FFECC15 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = A509E2F481134E8C96373D1B /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_context.m */; settings = {COMPILER_FLAGS = ""; }; };
-		73BE558372F24224BC9737C8 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 6652F7A2DEF44DA68D858DE5 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_time.c */; settings = {COMPILER_FLAGS = ""; }; };
-		79FCDE918E1D4325894244E2 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = DA58804CE53A43BC94D19E90 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3.h */; settings = {COMPILER_FLAGS = ""; }; };
-		8D95930E579D4DCBB6AB996E /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = F7ED424417644844B812613B /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_joystick.m */; settings = {COMPILER_FLAGS = ""; }; };
-		93965D0D0D4C439789F92F51 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/init.c */ = {isa = PBXBuildFile; fileRef = E04780B8F2C04E67B2FAC090 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/init.c */; settings = {COMPILER_FLAGS = ""; }; };
-		9E49EF04185149D0A4D74543 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/input.c */ = {isa = PBXBuildFile; fileRef = F749F1F0C01947AD9EE2C7FB /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/input.c */; settings = {COMPILER_FLAGS = ""; }; };
-		9FA43BA1CA6B4612A2509C1C /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 8FB2F60165B5402A9E603FA6 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_monitor.m */; settings = {COMPILER_FLAGS = ""; }; };
-		A5C2F68CA12A40358394D7CE /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 34184A89DB794D54884FDF7C /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
-		AF7946DD88C6467D9DAB74DA /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/time.c */ = {isa = PBXBuildFile; fileRef = 2429DA9CDC01466FB31C6BBE /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/time.c */; settings = {COMPILER_FLAGS = ""; }; };
-		B1966749D2F941E89AA6F776 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/window.c */ = {isa = PBXBuildFile; fileRef = CC86DBC96739424B9F22A5BF /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/window.c */; settings = {COMPILER_FLAGS = ""; }; };
-		BB183CD7A38B4D3EA1B95433 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/joystick.c */ = {isa = PBXBuildFile; fileRef = 9155769A10824E1B901A2EED /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/joystick.c */; settings = {COMPILER_FLAGS = ""; }; };
-		C4260BBA629D448AA022AB34 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = B932E67C30654AE0847B0EE8 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_init.m */; settings = {COMPILER_FLAGS = ""; }; };
-		C4B0BEEF7F6F4DB8B135F758 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_platform.h */ = {isa = PBXBuildFile; fileRef = 6A55DEF21A2144F5BB298EFD /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_platform.h */; settings = {COMPILER_FLAGS = ""; }; };
-		C568F28F26934311B338E78A /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/internal.h */ = {isa = PBXBuildFile; fileRef = 83BF2C38CAA842B983783E02 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/internal.h */; settings = {COMPILER_FLAGS = ""; }; };
-		CAF5644FCB1A4105B6A387B7 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_clipboard.m */ = {isa = PBXBuildFile; fileRef = B2D4C0FD4E214E489409B14B /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_clipboard.m */; settings = {COMPILER_FLAGS = ""; }; };
-		D291BB75DCA742C6925C141B /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/context.c */ = {isa = PBXBuildFile; fileRef = 34451494B4ED4BA0B1F5DCCB /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/context.c */; settings = {COMPILER_FLAGS = ""; }; };
-		EFD76A29135C4368B0D889E5 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 236F72E522D14D8597349EA6 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3native.h */; settings = {COMPILER_FLAGS = ""; }; };
-		F3DA2F49E80149A0AE64CF8E /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/gamma.c */ = {isa = PBXBuildFile; fileRef = 5F4332ABDCDB4FBEBC16B95D /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/gamma.c */; settings = {COMPILER_FLAGS = ""; }; };
+		0370A6E6F8724DA892C5CFBC /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 062301E989C04673A45CA72D /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_init.m */; settings = {COMPILER_FLAGS = ""; }; };
+		11C1F194220E44D8993301F5 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/init.c */ = {isa = PBXBuildFile; fileRef = 0D3097C440E04844BBF3052A /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/init.c */; settings = {COMPILER_FLAGS = ""; }; };
+		2E0528B5EF0F42AB8DC2DFA2 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/monitor.c */ = {isa = PBXBuildFile; fileRef = CDFBC2F889EE4044B922E511 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/monitor.c */; settings = {COMPILER_FLAGS = ""; }; };
+		3D0F20722C1244B3A932321E /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = BE5B45D4A4304129B1A67372 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_joystick.m */; settings = {COMPILER_FLAGS = ""; }; };
+		47FFEA01887E49FEBC31BC44 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/input.c */ = {isa = PBXBuildFile; fileRef = 829ED11D96974C038A0B813E /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/input.c */; settings = {COMPILER_FLAGS = ""; }; };
+		5B0B3688B9CE4CC39A5068C1 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_platform.h */ = {isa = PBXBuildFile; fileRef = 4324238AD63E4FFB92E8F9B4 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_platform.h */; settings = {COMPILER_FLAGS = ""; }; };
+		63A3D29714624424BD98E569 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/window.c */ = {isa = PBXBuildFile; fileRef = BD5B499325714A7BA8F0E24C /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/window.c */; settings = {COMPILER_FLAGS = ""; }; };
+		67760248422A4CB8A802DE05 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/context.c */ = {isa = PBXBuildFile; fileRef = CC4AE2E7303B4C448F659F03 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/context.c */; settings = {COMPILER_FLAGS = ""; }; };
+		68D8C70F7A2D47C7806FA48E /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 194F5081882249178DC9CA14 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_window.m */; settings = {COMPILER_FLAGS = ""; }; };
+		72CF8D33F4DA4F92AEC1DCC2 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/gamma.c */ = {isa = PBXBuildFile; fileRef = DE115510DDA247B38A91597A /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/gamma.c */; settings = {COMPILER_FLAGS = ""; }; };
+		9577EEA0054346DDA8A6DD4D /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = A43FD6789ED0440F97EEF709 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_time.c */; settings = {COMPILER_FLAGS = ""; }; };
+		9ECEC1C34D03476589A1AC39 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/config.h */ = {isa = PBXBuildFile; fileRef = F4862FE1BC2244858E8BBF37 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		ABD3B91D344D4E1FB835B919 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/time.c */ = {isa = PBXBuildFile; fileRef = 7154609E537B4AD0AE91B51F /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/time.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B4D10C593CE34DDB964B5087 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_clipboard.m */ = {isa = PBXBuildFile; fileRef = 5E1CDB2733CE4B73A672BE35 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_clipboard.m */; settings = {COMPILER_FLAGS = ""; }; };
+		B55C13C4EB1B438DAF42A4D2 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 68E6B945989D411F877D73E3 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3native.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C7C4AC8CC09C4246A6EF112D /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/internal.h */ = {isa = PBXBuildFile; fileRef = 57134FAA831849DDBD7FBD59 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/internal.h */; settings = {COMPILER_FLAGS = ""; }; };
+		CF38865DF6D24473A50D27DB /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 010F4154619247AE9C7BD951 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_platform.h */; settings = {COMPILER_FLAGS = ""; }; };
+		CF98548F25B14100B071C700 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 7563BDD744734B0482D9C1DD /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_context.m */; settings = {COMPILER_FLAGS = ""; }; };
+		D1E8BEB760E3408A886C69F9 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = BCD2CFA7D10646279680FFCB /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_monitor.m */; settings = {COMPILER_FLAGS = ""; }; };
+		DDEDBDAB65EE4A2881C3D7F9 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/joystick.c */ = {isa = PBXBuildFile; fileRef = B99AB9D3A9AF43EEA5A6E92B /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/joystick.c */; settings = {COMPILER_FLAGS = ""; }; };
+		E56A0B65AFA94811853D3FE9 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/clipboard.c */ = {isa = PBXBuildFile; fileRef = 2B2F72E2449A4493AB332083 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/clipboard.c */; settings = {COMPILER_FLAGS = ""; }; };
+		E7303FBE5CB443ED8048C793 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 542A675C41CF4551B743420D /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		F6AE691C28FF4FD491670351 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_gamma.c */ = {isa = PBXBuildFile; fileRef = 0BAE81F6292349F2AC58282C /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_gamma.c */; settings = {COMPILER_FLAGS = ""; }; };
+		F707043FF38042E9AC6F420F /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 9E1B2437D3F64775825603A4 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3.h */; settings = {COMPILER_FLAGS = ""; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		9BCD59693A484387909D18A8 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		C1156FCC07804B2C9F9F3A1A /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		E89621D6D07049548D7A96BD /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		EC0D23BC985B4497BA8FF1AC = {
-			isa = PBXBuildStyle;
-		};
-		EE18A8F75E854A3DA145D1ED /* Release */ = {
+		2F44A0E9CB9F460683F60361 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		63B3DEC0C5914E31B0349D4A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		9DC6FE492CA04EECB704CEC4 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		B1ED32FED9D2427A810DC3C0 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E7D33B9FED3E4F44809D8989 = {
+			isa = PBXBuildStyle;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		1E4505FE199C4634AF9916AD /* PBXContainerItemProxy */ = {
+		715983AB2C5F41FA81017592 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6B35ADA69F074AF0B61BDE6D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4665F3CF539844168170DA51;
 			remoteInfo = GLFW_303;
 		};
-		5A602B44CD9F4E2E977A3C00 /* PBXContainerItemProxy */ = {
+		AE3C974223EF4BD4BB7F0E8D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6B35ADA69F074AF0B61BDE6D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CDF023A047324E2B8F092550;
 			remoteInfo = ZERO_CHECK;
 		};
-		9D780C05243C4ED0914928AC /* PBXContainerItemProxy */ = {
+		AE5CE11C4B244892AE4F91AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B35ADA69F074AF0B61BDE6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF023A047324E2B8F092550;
+			remoteInfo = ZERO_CHECK;
+		};
+		E31F9FA1B2C64343972338B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6B35ADA69F074AF0B61BDE6D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 15EBCF9F80294647AE7A25C6;
 			remoteInfo = ALL_BUILD;
 		};
-		D328A23739584C52BE4EA28B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B35ADA69F074AF0B61BDE6D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CDF023A047324E2B8F092550;
-			remoteInfo = ZERO_CHECK;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		236F72E522D14D8597349EA6 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
-		2429DA9CDC01466FB31C6BBE /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = time.c; path = src/time.c; sourceTree = SOURCE_ROOT; };
-		34184A89DB794D54884FDF7C /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		34451494B4ED4BA0B1F5DCCB /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
-		4D83DA4A8455419CAF478D9A /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/clipboard.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = clipboard.c; path = src/clipboard.c; sourceTree = SOURCE_ROOT; };
-		5F4332ABDCDB4FBEBC16B95D /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/gamma.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gamma.c; path = src/gamma.c; sourceTree = SOURCE_ROOT; };
-		6652F7A2DEF44DA68D858DE5 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
-		6870B7FA940544899BA5885A /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_gamma.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_gamma.c; path = src/cocoa_gamma.c; sourceTree = SOURCE_ROOT; };
-		6A55DEF21A2144F5BB298EFD /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_platform.h; path = src/nsgl_platform.h; sourceTree = SOURCE_ROOT; };
-		83BF2C38CAA842B983783E02 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
-		88EA5C6FF1FC45AF8DD78CC9 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
-		8FB2F60165B5402A9E603FA6 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
-		9155769A10824E1B901A2EED /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = joystick.c; path = src/joystick.c; sourceTree = SOURCE_ROOT; };
-		965B0721753D460BB02EC7B0 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		9BB23ADCE75D466A9E739923 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		A509E2F481134E8C96373D1B /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
-		B2D4C0FD4E214E489409B14B /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_clipboard.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_clipboard.m; path = src/cocoa_clipboard.m; sourceTree = SOURCE_ROOT; };
-		B932E67C30654AE0847B0EE8 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
-		C07DC7C499C446F1BC532338 /* GLFW_303 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC86DBC96739424B9F22A5BF /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
-		D91B8FA7AABB4BA5AF4A9F4C /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
-		DA58804CE53A43BC94D19E90 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
-		E04780B8F2C04E67B2FAC090 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
-		E2ECF39FEC014232A89AAC22 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = src/config.h; sourceTree = SOURCE_ROOT; };
-		EC863B17FDD948EA922E482D /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
-		F749F1F0C01947AD9EE2C7FB /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
-		F7ED424417644844B812613B /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		010F4154619247AE9C7BD951 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		062301E989C04673A45CA72D /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		0BAE81F6292349F2AC58282C /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_gamma.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_gamma.c; path = src/cocoa_gamma.c; sourceTree = SOURCE_ROOT; };
+		0D3097C440E04844BBF3052A /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		194F5081882249178DC9CA14 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		2B2F72E2449A4493AB332083 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/clipboard.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = clipboard.c; path = src/clipboard.c; sourceTree = SOURCE_ROOT; };
+		3A8910B63066479CBE81701F /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4324238AD63E4FFB92E8F9B4 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_platform.h; path = src/nsgl_platform.h; sourceTree = SOURCE_ROOT; };
+		542A675C41CF4551B743420D /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		57134FAA831849DDBD7FBD59 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		5E1CDB2733CE4B73A672BE35 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_clipboard.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_clipboard.m; path = src/cocoa_clipboard.m; sourceTree = SOURCE_ROOT; };
+		68E6B945989D411F877D73E3 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		7154609E537B4AD0AE91B51F /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = time.c; path = src/time.c; sourceTree = SOURCE_ROOT; };
+		7563BDD744734B0482D9C1DD /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		829ED11D96974C038A0B813E /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		884E4954B0954198A9BBEDD9 /* GLFW_303 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1B2437D3F64775825603A4 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		A43FD6789ED0440F97EEF709 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		B99AB9D3A9AF43EEA5A6E92B /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = joystick.c; path = src/joystick.c; sourceTree = SOURCE_ROOT; };
+		BCD2CFA7D10646279680FFCB /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		BD5B499325714A7BA8F0E24C /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		BE5B45D4A4304129B1A67372 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		CC4AE2E7303B4C448F659F03 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		CDFBC2F889EE4044B922E511 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		CF64D60B789A4FBB98447E28 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DE115510DDA247B38A91597A /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/gamma.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gamma.c; path = src/gamma.c; sourceTree = SOURCE_ROOT; };
+		F4862FE1BC2244858E8BBF37 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = src/config.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		07AC53A14EE04C739C49FC2A /* GLFW_303 */ = {
+		004A7307963D49E7A497BD1A /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				7A3501A9B0214973A83ACADB /* Source Files */,
-				78F98FA19CE8489F955C50EE /* Header Files */,
-				34184A89DB794D54884FDF7C /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/CMakeLists.txt */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		019D54DED6724B11A2D18EE5 /* GLFW_303 */ = {
+			isa = PBXGroup;
+			children = (
+				87644B9462D641AE96CEF5F7 /* Source Files */,
+				6E5FA2E20B1F46018183624F /* Header Files */,
+				542A675C41CF4551B743420D /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/CMakeLists.txt */,
 			);
 			name = GLFW_303;
 			sourceTree = "<group>";
 		};
-		1A64B2DAA83E4EB798288BD9 /* Products */ = {
+		054F0DE529EA4621B8772832 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C07DC7C499C446F1BC532338 /* GLFW_303 */,
+				884E4954B0954198A9BBEDD9 /* GLFW_303 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		49E3E3D52CCB4B86A9A13FA6 /* CMake Rules */ = {
+		18C82CAFEC3D4267B5DBBE4E = {
 			isa = PBXGroup;
 			children = (
+				5413E4466A784806AFE53C27 /* Sources */,
+				87B43B9930D143DB93000FC8 /* Resources */,
+				054F0DE529EA4621B8772832 /* Products */,
 			);
-			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		49E67C44A02440A0B8C2534A /* CMake Rules */ = {
+		224D8EC43BB14DC988DBAAC0 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		4A7AD3B7757A450E8E6F9FFC /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				49E67C44A02440A0B8C2534A /* CMake Rules */,
-				965B0721753D460BB02EC7B0 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/CMakeLists.txt */,
+				7A956135E6F14C938CD08F50 /* CMake Rules */,
+				CF64D60B789A4FBB98447E28 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		6654C73122DD4C178AE94F8E /* Resources */ = {
+		22CAAE3BBB854943B154F74C /* ZERO_CHECK */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		671AAD46B97243E4BA80ED85 /* ZERO_CHECK */ = {
-			isa = PBXGroup;
-			children = (
-				49E3E3D52CCB4B86A9A13FA6 /* CMake Rules */,
-				9BB23ADCE75D466A9E739923 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/CMakeLists.txt */,
+				004A7307963D49E7A497BD1A /* CMake Rules */,
+				3A8910B63066479CBE81701F /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/CMakeLists.txt */,
 			);
 			name = ZERO_CHECK;
 			sourceTree = "<group>";
 		};
-		78F98FA19CE8489F955C50EE /* Header Files */ = {
+		5413E4466A784806AFE53C27 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DA58804CE53A43BC94D19E90 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3.h */,
-				236F72E522D14D8597349EA6 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3native.h */,
-				D91B8FA7AABB4BA5AF4A9F4C /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_platform.h */,
-				E2ECF39FEC014232A89AAC22 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/config.h */,
-				83BF2C38CAA842B983783E02 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/internal.h */,
-				6A55DEF21A2144F5BB298EFD /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_platform.h */,
+				224D8EC43BB14DC988DBAAC0 /* ALL_BUILD */,
+				22CAAE3BBB854943B154F74C /* ZERO_CHECK */,
+				019D54DED6724B11A2D18EE5 /* GLFW_303 */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		6E5FA2E20B1F46018183624F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E1B2437D3F64775825603A4 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3.h */,
+				68E6B945989D411F877D73E3 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/include/GLFW/glfw3native.h */,
+				010F4154619247AE9C7BD951 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_platform.h */,
+				F4862FE1BC2244858E8BBF37 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/config.h */,
+				57134FAA831849DDBD7FBD59 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/internal.h */,
+				4324238AD63E4FFB92E8F9B4 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_platform.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		7A3501A9B0214973A83ACADB /* Source Files */ = {
+		7A956135E6F14C938CD08F50 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				4D83DA4A8455419CAF478D9A /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/clipboard.c */,
-				B2D4C0FD4E214E489409B14B /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_clipboard.m */,
-				6870B7FA940544899BA5885A /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_gamma.c */,
-				B932E67C30654AE0847B0EE8 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_init.m */,
-				F7ED424417644844B812613B /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_joystick.m */,
-				8FB2F60165B5402A9E603FA6 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_monitor.m */,
-				6652F7A2DEF44DA68D858DE5 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_time.c */,
-				88EA5C6FF1FC45AF8DD78CC9 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_window.m */,
-				34451494B4ED4BA0B1F5DCCB /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/context.c */,
-				5F4332ABDCDB4FBEBC16B95D /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/gamma.c */,
-				E04780B8F2C04E67B2FAC090 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/init.c */,
-				F749F1F0C01947AD9EE2C7FB /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/input.c */,
-				9155769A10824E1B901A2EED /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/joystick.c */,
-				EC863B17FDD948EA922E482D /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/monitor.c */,
-				A509E2F481134E8C96373D1B /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_context.m */,
-				2429DA9CDC01466FB31C6BBE /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/time.c */,
-				CC86DBC96739424B9F22A5BF /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/window.c */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		87644B9462D641AE96CEF5F7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B2F72E2449A4493AB332083 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/clipboard.c */,
+				5E1CDB2733CE4B73A672BE35 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_clipboard.m */,
+				0BAE81F6292349F2AC58282C /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_gamma.c */,
+				062301E989C04673A45CA72D /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_init.m */,
+				BE5B45D4A4304129B1A67372 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_joystick.m */,
+				BCD2CFA7D10646279680FFCB /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_monitor.m */,
+				A43FD6789ED0440F97EEF709 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_time.c */,
+				194F5081882249178DC9CA14 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_window.m */,
+				CC4AE2E7303B4C448F659F03 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/context.c */,
+				DE115510DDA247B38A91597A /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/gamma.c */,
+				0D3097C440E04844BBF3052A /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/init.c */,
+				829ED11D96974C038A0B813E /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/input.c */,
+				B99AB9D3A9AF43EEA5A6E92B /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/joystick.c */,
+				CDFBC2F889EE4044B922E511 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/monitor.c */,
+				7563BDD744734B0482D9C1DD /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_context.m */,
+				7154609E537B4AD0AE91B51F /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/time.c */,
+				BD5B499325714A7BA8F0E24C /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/window.c */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		BAB2499B1C1B4F34B7100645 = {
+		87B43B9930D143DB93000FC8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E95122AD498B4995B86674AA /* Sources */,
-				6654C73122DD4C178AE94F8E /* Resources */,
-				1A64B2DAA83E4EB798288BD9 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		E95122AD498B4995B86674AA /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				4A7AD3B7757A450E8E6F9FFC /* ALL_BUILD */,
-				671AAD46B97243E4BA80ED85 /* ZERO_CHECK */,
-				07AC53A14EE04C739C49FC2A /* GLFW_303 */,
-			);
-			name = Sources;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,18 +286,18 @@
 /* Begin PBXNativeTarget section */
 		4665F3CF539844168170DA51 /* GLFW_303 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 926D3A7A7D8D44FC9C94D912 /* Build configuration list for PBXNativeTarget "GLFW_303" */;
+			buildConfigurationList = 26A8A0B4A1314B55B63DB3CE /* Build configuration list for PBXNativeTarget "GLFW_303" */;
 			buildPhases = (
-				6D6E9C5B909248D58F1D4EB8 /* Sources */,
+				070F1297798B4FF499008135 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C8B0D87B068441029CBBDF96 /* PBXTargetDependency */,
+				3FEE21B2751241F9AA714442 /* PBXTargetDependency */,
 			);
 			name = GLFW_303;
 			productName = GLFW_303;
-			productReference = C07DC7C499C446F1BC532338 /* GLFW_303 */;
+			productReference = 884E4954B0954198A9BBEDD9 /* GLFW_303 */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -307,20 +307,20 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0920;
 			};
-			buildConfigurationList = B925F0F372FC4B3897B2F8F5 /* Build configuration list for PBXProject "GLFW" */;
+			buildConfigurationList = 0D0B90B057B9470098BDA01E /* Build configuration list for PBXProject "GLFW" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				E89621D6D07049548D7A96BD /* Debug */,
-				EE18A8F75E854A3DA145D1ED /* Release */,
-				C1156FCC07804B2C9F9F3A1A /* MinSizeRel */,
-				9BCD59693A484387909D18A8 /* RelWithDebInfo */,
+				9DC6FE492CA04EECB704CEC4 /* Debug */,
+				2F44A0E9CB9F460683F60361 /* Release */,
+				63B3DEC0C5914E31B0349D4A /* MinSizeRel */,
+				B1ED32FED9D2427A810DC3C0 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = BAB2499B1C1B4F34B7100645;
+			mainGroup = 18C82CAFEC3D4267B5DBBE4E;
 			projectDirPath = .;
 			projectRoot = "";
 			targets = (
@@ -333,29 +333,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0F6FFAD48E234571A5234BFB /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3 -f /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		24786DA4CC764E67A3D22AA6 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3 -f /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		5EEC416E39DB49B8AEE8679A = {
+		190ED387E5CF4EC0BE455160 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,7 +348,18 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		6D251621F7BB40E8969B5E86 = {
+		1B8F64BE3ADC426484DF7203 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3 -f /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B49AAFAF944C43839B8B0CA2 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,7 +374,33 @@ exit 0";
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		E49E9DF800A64C4CA3854CA2 /* CMake PostBuild Rules */ = {
+		C3CBB6B8616E48BBBF5C8D9E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3 -f /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D4D40B267CF148959C230AAC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E8E47779F36A4A759D7A9D6D /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -393,409 +408,63 @@ exit 0";
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3 -f /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		F280AA9D8B4B48B9A7CBE6B2 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
+			shellScript = "make -C /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3 -f /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6D6E9C5B909248D58F1D4EB8 /* Sources */ = {
+		070F1297798B4FF499008135 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A9D442EDFD946B290F5D9FD /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/clipboard.c */,
-				CAF5644FCB1A4105B6A387B7 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_clipboard.m */,
-				4B91B2849D0342EE9F9AEB89 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_gamma.c */,
-				C4260BBA629D448AA022AB34 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_init.m */,
-				8D95930E579D4DCBB6AB996E /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_joystick.m */,
-				9FA43BA1CA6B4612A2509C1C /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_monitor.m */,
-				73BE558372F24224BC9737C8 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_time.c */,
-				2016C470E3714E08A77AF751 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_window.m */,
-				D291BB75DCA742C6925C141B /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/context.c */,
-				F3DA2F49E80149A0AE64CF8E /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/gamma.c */,
-				93965D0D0D4C439789F92F51 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/init.c */,
-				9E49EF04185149D0A4D74543 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/input.c */,
-				BB183CD7A38B4D3EA1B95433 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/joystick.c */,
-				4F134DE5CAFE479CB91E34C4 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/monitor.c */,
-				641666C467F949889FFECC15 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_context.m */,
-				AF7946DD88C6467D9DAB74DA /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/time.c */,
-				B1966749D2F941E89AA6F776 /* /Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src/window.c */,
+				E56A0B65AFA94811853D3FE9 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/clipboard.c */,
+				B4D10C593CE34DDB964B5087 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_clipboard.m */,
+				F6AE691C28FF4FD491670351 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_gamma.c */,
+				0370A6E6F8724DA892C5CFBC /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_init.m */,
+				3D0F20722C1244B3A932321E /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_joystick.m */,
+				D1E8BEB760E3408A886C69F9 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_monitor.m */,
+				9577EEA0054346DDA8A6DD4D /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_time.c */,
+				68D8C70F7A2D47C7806FA48E /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/cocoa_window.m */,
+				67760248422A4CB8A802DE05 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/context.c */,
+				72CF8D33F4DA4F92AEC1DCC2 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/gamma.c */,
+				11C1F194220E44D8993301F5 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/init.c */,
+				47FFEA01887E49FEBC31BC44 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/input.c */,
+				DDEDBDAB65EE4A2881C3D7F9 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/joystick.c */,
+				2E0528B5EF0F42AB8DC2DFA2 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/monitor.c */,
+				CF98548F25B14100B071C700 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/nsgl_context.m */,
+				ABD3B91D344D4E1FB835B919 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/time.c */,
+				63A3D29714624424BD98E569 /* /Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src/window.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		337A19CF91D04BD5856BFBAE /* PBXTargetDependency */ = {
+		37E15833487C4DDBA8F7AC4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CDF023A047324E2B8F092550 /* ZERO_CHECK */;
-			targetProxy = 5A602B44CD9F4E2E977A3C00 /* PBXContainerItemProxy */;
+			targetProxy = AE5CE11C4B244892AE4F91AB /* PBXContainerItemProxy */;
 		};
-		97A57F670562422CA53211BF /* PBXTargetDependency */ = {
+		3FEE21B2751241F9AA714442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF023A047324E2B8F092550 /* ZERO_CHECK */;
+			targetProxy = AE3C974223EF4BD4BB7F0E8D /* PBXContainerItemProxy */;
+		};
+		E64F29C9AEE4482C982B6382 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 15EBCF9F80294647AE7A25C6 /* ALL_BUILD */;
-			targetProxy = 9D780C05243C4ED0914928AC /* PBXContainerItemProxy */;
+			targetProxy = E31F9FA1B2C64343972338B4 /* PBXContainerItemProxy */;
 		};
-		C759E531510E47909A356690 /* PBXTargetDependency */ = {
+		F9D80D3129BD4CFFADE89183 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4665F3CF539844168170DA51 /* GLFW_303 */;
-			targetProxy = 1E4505FE199C4634AF9916AD /* PBXContainerItemProxy */;
-		};
-		C8B0D87B068441029CBBDF96 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CDF023A047324E2B8F092550 /* ZERO_CHECK */;
-			targetProxy = D328A23739584C52BE4EA28B /* PBXContainerItemProxy */;
+			targetProxy = 715983AB2C5F41FA81017592 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0255A2B6B35D47C88E87265A /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		15F99044A07447CAB6B62B60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/build";
-			};
-			name = Release;
-		};
-		1C13352B9A784BA4AB57B94B /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		2225D4087B464BD5B05463F7 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		2FAD98F8249843C099BF88D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Debug;
-		};
-		35BFE92AD5D54DD298AC12F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",TW_STATIC,TW_NO_LIB_PRAGMA,TW_NO_DIRECT3D,GLEW_STATIC,_CRT_SECURE_NO_WARNINGS);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "     -Wall";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Debug;
-		};
-		3CC1E5496FAE495AB51CC6E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		5F3E697C4FC747F89CC4767F /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		7796DF0031E240CFB6DA69F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		7DBA0745F8C9419A81A2163C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		857030B9F00B4D84B9B55CF7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Debug;
-		};
-		890D3CDB8C224D0D947540C4 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		AC65FC8EC6094070B472F2F5 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",TW_STATIC,TW_NO_LIB_PRAGMA,TW_NO_DIRECT3D,GLEW_STATIC,_CRT_SECURE_NO_WARNINGS);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "       -DNDEBUG   -Wall";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		B7B83DE144B840F9A562AB28 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/build";
-			};
-			name = RelWithDebInfo;
-		};
-		BB715680C9A84BA09C4C5C81 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/build";
-			};
-			name = Debug;
-		};
-		D589614419FA4A308102AACF /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/build";
-			};
-			name = MinSizeRel;
-		};
-		E2A05168E1824A53BD7666D6 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		E4FA6782E2DF4465AE7114BF /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",TW_STATIC,TW_NO_LIB_PRAGMA,TW_NO_DIRECT3D,GLEW_STATIC,_CRT_SECURE_NO_WARNINGS);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "    -DNDEBUG   -Wall";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		F74704FA55DA4428AC123422 /* Release */ = {
+		00E18C5B5AA94B4082F6419A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -806,7 +475,7 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",TW_STATIC,TW_NO_LIB_PRAGMA,TW_NO_DIRECT3D,GLEW_STATIC,_CRT_SECURE_NO_WARNINGS);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src");
+				HEADER_SEARCH_PATHS = ("/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = "    -DNDEBUG   -Wall";
@@ -814,13 +483,94 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3/src";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
 			name = Release;
 		};
-		F8655F19B95B4C6D9F93D5F0 /* Debug */ = {
+		01A132BE901C42C28FF621DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/macOSX10.13.sdk;
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/build";
+			};
+			name = Release;
+		};
+		1C9C7ED147A14B7C895C83F8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/macOSX10.13.sdk;
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/build";
+			};
+			name = MinSizeRel;
+		};
+		27AAC8FE20F04FC695CDD3AC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",TW_STATIC,TW_NO_LIB_PRAGMA,TW_NO_DIRECT3D,GLEW_STATIC,_CRT_SECURE_NO_WARNINGS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4269AC8FC8C34C02BBBCEB1C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/macOSX10.13.sdk;
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/build";
+			};
+			name = RelWithDebInfo;
+		};
+		582E61837AD64897BA27C4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/macOSX10.13.sdk;
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/build";
+			};
+			name = Debug;
+		};
+		6888356FEC0F4135B0E9B0ED /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		70F745B6F8C74BE7A0B52C39 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -834,66 +584,316 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/Costa/Documents/CG2017-2/OpenGl/CG_UFPel/external/glfw-3.0.3";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		771E7B5DF5AD44D4A4DE7227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		89ADA6A0283247E3AC35A888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C922ACE2349A4C9EA729D2B8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C9F21161B5164D4B9146A463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
 			name = Debug;
 		};
+		CAAD615E74BB4127B68EFA78 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CF12309D67B44366A26D07DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D1C9B1EDC102469B9BFEC62D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D5DB21652CEA4622B342E9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E7813C2CCD0F4CD299BD9637 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EECB69524E064258B96340B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F2A098112560473CA521F2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",TW_STATIC,TW_NO_LIB_PRAGMA,TW_NO_DIRECT3D,GLEW_STATIC,_CRT_SECURE_NO_WARNINGS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "     -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F9F11E8835D649E994DCF423 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",TW_STATIC,TW_NO_LIB_PRAGMA,TW_NO_DIRECT3D,GLEW_STATIC,_CRT_SECURE_NO_WARNINGS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Costa/Documents/gits/OpenGl/CG_UFPel/external/glfw-3.0.3/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		91C8B72BD52A419181F8D92D /* Build configuration list for PBXAggregateTarget "install" */ = {
+		0D0B90B057B9470098BDA01E /* Build configuration list for PBXProject "GLFW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FAD98F8249843C099BF88D0 /* Debug */,
-				7796DF0031E240CFB6DA69F9 /* Release */,
-				5F3E697C4FC747F89CC4767F /* MinSizeRel */,
-				1C13352B9A784BA4AB57B94B /* RelWithDebInfo */,
+				582E61837AD64897BA27C4A0 /* Debug */,
+				01A132BE901C42C28FF621DA /* Release */,
+				1C9C7ED147A14B7C895C83F8 /* MinSizeRel */,
+				4269AC8FC8C34C02BBBCEB1C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		926D3A7A7D8D44FC9C94D912 /* Build configuration list for PBXNativeTarget "GLFW_303" */ = {
+		112FB6AE0FF040D2BFC0AC3A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35BFE92AD5D54DD298AC12F8 /* Debug */,
-				F74704FA55DA4428AC123422 /* Release */,
-				E4FA6782E2DF4465AE7114BF /* MinSizeRel */,
-				AC65FC8EC6094070B472F2F5 /* RelWithDebInfo */,
+				D5DB21652CEA4622B342E9F3 /* Debug */,
+				89ADA6A0283247E3AC35A888 /* Release */,
+				6888356FEC0F4135B0E9B0ED /* MinSizeRel */,
+				E7813C2CCD0F4CD299BD9637 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B925F0F372FC4B3897B2F8F5 /* Build configuration list for PBXProject "GLFW" */ = {
+		1C5657608CB34FF6B4E43118 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB715680C9A84BA09C4C5C81 /* Debug */,
-				15F99044A07447CAB6B62B60 /* Release */,
-				D589614419FA4A308102AACF /* MinSizeRel */,
-				B7B83DE144B840F9A562AB28 /* RelWithDebInfo */,
+				C9F21161B5164D4B9146A463 /* Debug */,
+				CF12309D67B44366A26D07DF /* Release */,
+				C922ACE2349A4C9EA729D2B8 /* MinSizeRel */,
+				D1C9B1EDC102469B9BFEC62D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		CA226A5F68AC4047BB50F4BC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		26A8A0B4A1314B55B63DB3CE /* Build configuration list for PBXNativeTarget "GLFW_303" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				857030B9F00B4D84B9B55CF7 /* Debug */,
-				7DBA0745F8C9419A81A2163C /* Release */,
-				2225D4087B464BD5B05463F7 /* MinSizeRel */,
-				E2A05168E1824A53BD7666D6 /* RelWithDebInfo */,
+				F2A098112560473CA521F2F5 /* Debug */,
+				00E18C5B5AA94B4082F6419A /* Release */,
+				F9F11E8835D649E994DCF423 /* MinSizeRel */,
+				27AAC8FE20F04FC695CDD3AC /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F0F08DFD9BBC4E9C85D61095 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		84A8F0EB6D4F494F90C7C972 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8655F19B95B4C6D9F93D5F0 /* Debug */,
-				3CC1E5496FAE495AB51CC6E4 /* Release */,
-				890D3CDB8C224D0D947540C4 /* MinSizeRel */,
-				0255A2B6B35D47C88E87265A /* RelWithDebInfo */,
+				EECB69524E064258B96340B9 /* Debug */,
+				771E7B5DF5AD44D4A4DE7227 /* Release */,
+				CAAD615E74BB4127B68EFA78 /* MinSizeRel */,
+				70F745B6F8C74BE7A0B52C39 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
