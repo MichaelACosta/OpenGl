@@ -1,5 +1,7 @@
-Uso do OpenGl para estudo, projeto da cadeira de computação gráfica da UFPel 2011-2.
+# Phong
 
-O branch master aplica o shader Standard do projeto que é equivalente ao algoritmo de Phong estuda na cadeira.
+O branch master utiliza o shader Standard do projeto que é equivalente ao algoritmo de Phong.
 
-O calculo de luz é efetuado um vez para cada fragmento, interpolando normais dos vértices do polígono. Calculo feito no fragmentshader.
+## Cálculo
+
+O cálculo de luz é efetuado um vez para cada fragmento, interpolando as normais dos vértices do polígono. Este cálculo feito no fragmentshader.
