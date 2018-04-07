@@ -1,5 +1,7 @@
-Uso do OpenGl para estudo, projeto da cadeira de computação gráfica da UFPel 2011-2.
+# Gouraud
 
-O branch Gouraud aplica o algoritmo de Gouraud estuda na cadeira.
+O branch Gouraud utiliza o algoritmo de Gouraud implementado no shader.
 
-O cálculo de luz é efetuado um vez para cada vértice. Este cálculo é feito no vertexshader.
+## Cálculo
+
+O cálculo de luz é efetuado um vez para cada vértice. Este cálculo feito no vertexshader.
