@@ -1,3 +1,7 @@
-Uso do OpenGl para estudo, projeto da cadeira de computação gráfica da UFPel 2011-2.
+# InvertTexture
 
-O branch InvertTexture multiplica o espaço do modelo (vertexPosition_modelspace) por -1, assim invertendo a posição do objeto no shader.
+O branch InvertTexture inverte a posição do objeto efetuando um cálculo no shader.
+
+## Cálculo
+
+O cálculo multiplica o espaço do modelo (vertexPosition_modelspace) por -1. Este cálculo feito no vertexshader.
