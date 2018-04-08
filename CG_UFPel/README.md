@@ -1,5 +1,7 @@
-Uso do OpenGl para estudo, projeto da cadeira de computação gráfica da UFPel 2011-2.
+# Toon Shader
 
-O branch master aplica o shader Standard do projeto que é equivalente ao algoritmo de Phong estuda na cadeira.
+O branch toonShader utiliza o algoritmo Toon Shader para deixar as cores dos objetos com aspecto de desenhos 2D.
 
-O calculo de luz é efetuado um vez para cada fragmento, interpolando normais dos vértices do polígono. Calculo feito no fragmentshader.
+## Cálculo
+
+A cor é atribuída com base no valor da variável de intensidade, a variável de intensidade é dada pelo produto interno `dot` entre a direção de luz e a normal da câmera. Este cálculo feito no fragmentshader.
